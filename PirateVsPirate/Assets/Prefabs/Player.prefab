@@ -111,6 +111,7 @@ GameObject:
   - component: {fileID: 666426639089956445}
   - component: {fileID: 1002537457151078980}
   - component: {fileID: 4478479774256294982}
+  - component: {fileID: 4920871072740002549}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -208,6 +209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <InputReader>k__BackingField: {fileID: 4478479774256294982}
+  <Rigidbody>k__BackingField: {fileID: 4920871072740002549}
 --- !u!114 &4478479774256294982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,6 +222,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b41151075423f94fab2aa07cbcc3d52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &4920871072740002549
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3144548882416347735}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &6966796350263094032
 GameObject:
   m_ObjectHideFlags: 0
